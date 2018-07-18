@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  max-width: 30em;
+  padding: 1em;
+}
+
+a {
+  font-weight: 900;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  background-image: url("./img/bg.png");
+  background-size: cover;
+  background-position: center center;
+}
+op-content {
+  max-width: 800px;
+}
+op-frame {
+  --main-color: #3772ff;
+  --secondary-color: #61e294;
+  --bg-color: transparent;
+  --copy-color: #0f0a0a;
+}
+
+.logo {
+  width: 128px;
+}
+.listen-on {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.listen-on op-link a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.3em 0;
+}
