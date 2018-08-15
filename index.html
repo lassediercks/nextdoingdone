@@ -1,74 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Next Doing Done</title>
+  <meta name="theme-color" content="#61E294">
+  <meta name="robots" content="index, follow">
+
+
+  <link rel="canonical" href="https://www.nextdoingdone.de">
+
+  <meta name="google-site-verification" content="yuHd3-0TwWw5A9VGS9HpTZbDCTvOSg10qz8l8Oecx90" />
+  <title>Next Doing Done | Der Podcast rund ums smarte arbeiten</title>
+  <meta property="og:site_name" content="Next Doing Done" />
+  <meta property="og:title" content="Next Doing Done" />
+  <meta property="og:image" content="https://nextdoingdone.de/img/open-graph.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+
+  <meta name="description" content="Der Podcast rund ums smarte arbeiten, persönliche Herausforderungen und Spaß am Leben.">
+  <meta property="og:description" content="Der Podcast rund ums smarte arbeiten, persönliche Herausforderungen und Spaß am Leben."
+  />
+  <meta property="og:email" content="feedback@nextdoingdone.de" />
+  <meta property="og:url" content="https://nextdoingdone.de/">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@nextdoingdone" />
+  <meta name="twitter:title" content="Next Doing Done" />
+  <meta name="twitter:image:width" content="750" />
+  <meta name="twitter:image:height" content="560" />
+  <meta name="twitter:image" content="https://nextdoingdone.de/img/twitter.png" />
+  <meta name="twitter:description" content="Der Podcast rund ums smarte arbeiten, persönliche Herausforderungen und Spaß am Leben."
+  />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png?1">
+
 </head>
-<style>
-body{
-font-family: sans-serif;
-background-size: cover;
-background-position: center center;
-display: flex;
-min-height: 100vh;
-padding: 0;
-margin: 0;
-align-items: center;
-justify-content: center;
-}
-.content{
-max-width: 30em;
-padding: 1em;
-}
-a {
-font-weight: 900;
-color: inherit;}
 
 
-op-frame{
-  --main-color: #3772FF;
-  --secondary-color: #61E294;
-  --bg-color: transparent;
-  --copy-color: #0F0A0A;
-
-}
-
-</style>
 <body>
   <op-frame>
+    <header>
+      <img class="logo " src="./img/Logo.svg " alt="Next Doing Done Logo ">
+    </header>
+    <op-content>
+      <op-headline level="2 ">Probleme im Unternehmen?</op-headline>
+      <op-paragraph>Fass uns kurz deine Situation zusammen und wir werden dir innerhalb von 24 Stunden antworten wie und
+        mit welchen Methoden du deine Probleme angehen kannst.</op-paragraph>
+      <textarea class="problem-text" id="MailText"></textarea>
+      <op-button id="submitButton">Mail Senden</op-button>
+      <op-headline level="2 ">Zu hören auf:</op-headline>
+      <div class="listen-on ">
+        <op-link href="https://open.spotify.com/show/3qmlDizuA6y5dK4Dl4LsJs ">Spotify</op-link>
+        <op-link href="https://itunes.apple.com/de/podcast/next-doing-done/id1354436703?l=en&mt=2 ">Apple Podcasts</op-link>
+        <op-link href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yYWI3ZmM4L3BvZGNhc3QvcnNz ">Google
+          Podcasts
+        </op-link>
+        <op-link href="https://castbox.fm/channel/id1190968 ">Castbox</op-link>
+        <op-link href="https://www.podbean.com/podcast-detail/ak883-6783a/Next-Doing-Done-Podcast ">Podbean</op-link>
+        <op-link href="https://www.breaker.audio/next-doing-done ">Breaker</op-link>
+        <op-link href="https://overcast.fm/itunes1354436703/next-doing-done ">Overcast</op-link>
+        <op-link href="https://play.radiopublic.com/next-doing-done-GE2xqP ">Radio Public</op-link>
+        <op-link href="https://www.youtube.com/channel/UC2Imhkol-GXbPT7I-0TDdlQ?view_as=subscriber ">Youtube</op-link>
+      </div>
+      <br>
+      <op-headline level="2 ">Über uns</op-headline>
+      <op-paragraph>Der Podcast rund ums smarte arbeiten, persönliche Herausforderungen und Spaß am Leben. Wir erklären dir,
+        wie du dich, sowohl privat als auch beruflich, durch iteratives Vorgehen stetig verbessern kannst. Zwischendurch
+        erzählen wir dir von unseren Erfahrungen und was wir daraus gelernt haben. Manchmal spinnen wir auch einfach nur
+        rum.
+        <br>
+        <br>Deine Fragen und Anregungen kannst du uns gerne an
+        <op-link href=" mailto:feedback@nextdoingdone.de ">feedback@nextdoingdone.de</op-link> schicken ❤️
+        <br>
+        <br>➡️ Folge uns auf Instagram
+        <op-link href="https://instagram.com/nextdoingdone ">@nextdoingdone</op-link>
+        oder
+        <br> ➡️ Schreib uns direkt auf Twitter
+        <op-link href="https://lassediercks.de/ "> @lassediercks</op-link> und
+        <op-link href="https://twitter.com/tarekgarir ">@TarekGarir</op-link>
+        <br>
+        <br> Abonniere uns und lass ein paar ⭐️⭐️⭐️⭐️⭐️ da.</op-paragraph>
+      <br>
+      <br>
+      </op-paragraph>
+      <br>
+      <op-headline level=2>Unsere aktuelle Folge</op-headline level=2>
+      <iframe src="https://anchor.fm/nextdoingdone/embed " height="102px " width="100% " style="max-width: 400px;
+          " frameborder="0 " scrolling="no "></iframe>
+      <br>
+      <op-link href="https://anchor.fm/s/2ab7fc8/podcast/rss ">Oder zum RSS-Feed</op-link>
+      <br>
+      <br>
+      <op-headline level="2 ">Impressum</op-headline>
+      <br>
+      <op-paragraph>
+        Verantwortlich für den Quatsch sind Lasse Diercks &amp; Tarek Garir aus Hamburg.
+      </op-paragraph>
+    </op-content>
+  </op-frame>
 
-  <op-content>
-    <op-headline>Next Doing Done</op-headline>
-    <op-paragraph>Next Doing Done ist der Podcast rund ums smarte arbeiten, persönliche Herausforderungen und Spaß am Leben. Wir erklären dir, wie du dich, sowohl privat als auch beruflich, durch iteratives Vorgehen stetig verbessern kannst. Zwischendurch erzählen wir dir von unseren Erfahrungen und was wir daraus gelernt haben. Manchmal spinnen wir auch einfach nur rum.<br><br>Deine Fragen und Anregungen kannst du uns gerne an <op-link href="mailto:feedback@nextdoingdone.de">feedback@nextdoingdone.de</op-link> schicken ❤️<br><br>➡️ Folge uns auf Instagram <op-link href="https://instagram.com/nextdoingdone">@nextdoingdone</op-link>
-    oder<br>
-    ➡️ Schreib uns direkt auf Twitter <op-link href="https://lassediercks.de/"> @lassediercks</op-link> und <op-link href="https://twitter.com/tarekgarir">@TarekGarir</op-link>
-    <br>
-    <br>
-    Abonniere uns und lass ein paar ⭐️⭐️⭐️⭐️⭐️ da.</op-paragraph>
-    <br>
-    <br>
-    </op-paragraph>
-    <op-headline level=2>Unsere aktuelle Folge</op-headline level=2>
-    <iframe src="https://anchor.fm/nextdoingdone/embed" height="102px" width="100%" style="max-width: 400px;" frameborder="0" scrolling="no"></iframe>
-    <br>
-    <op-link href="https://anchor.fm/s/2ab7fc8/podcast/rss">Oder zum RSS-Feed</op-link>
-  </op-content>
-</op-frame>
+  <script src="main.js"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115014635-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag("js", new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115014635-1 "></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js ", new Date());
 
-gtag("config", "UA-115014635-1");
-</script>
-<script src="https://lib.patternson.io/Octopus/v/latest.js"></script>
+    gtag("config ", "UA-115014635-1 ");
+  </script>
+  <script src="https://lib.patternson.io/Octopus/v/latest.js "></script>
 
 
 </body>
+
 </html>
