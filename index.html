@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -43,27 +44,34 @@
 <body>
   <op-frame>
     <header>
-      <img class="logo" src="./img/Logo.svg" alt="Next Doing Done Logo">
+      <img class="logo " src="./img/Logo.svg " alt="Next Doing Done Logo ">
     </header>
     <op-content>
-      <op-headline level="2">Zu hören auf:</op-headline>
-      <div class="listen-on">
-
-        <op-link href="https://open.spotify.com/show/3qmlDizuA6y5dK4Dl4LsJs">Spotify</op-link>
-        <op-link href="https://itunes.apple.com/de/podcast/next-doing-done/id1354436703?l=en&mt=2">Apple Podcasts</op-link>
-        <op-link href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yYWI3ZmM4L3BvZGNhc3QvcnNz">Google Podcasts</op-link>
-        <op-link href="https://castbox.fm/channel/id1190968">Castbox</op-link>
-        <op-link href="https://www.podbean.com/podcast-detail/ak883-6783a/Next-Doing-Done-Podcast">Podbean</op-link>
-        <op-link href="https://www.breaker.audio/next-doing-done">Breaker</op-link>
-        <op-link href="https://overcast.fm/itunes1354436703/next-doing-done">Overcast</op-link>
-        <op-link href="https://play.radiopublic.com/next-doing-done-GE2xqP">Radio Public</op-link>
-        <op-link href="https://www.youtube.com/channel/UC2Imhkol-GXbPT7I-0TDdlQ?view_as=subscriber">Youtube</op-link>
+      <op-headline level="2 ">Probleme im Unternehmen?</op-headline>
+      <op-paragraph>Fass uns kurz deine Situation zusammen und wir werden dir innerhalb von 24 Stunden antworten wie und
+        mit welchen Methoden du deine Probleme angehen kannst.</op-paragraph>
+      <textarea class="problem-text" id="MailText"></textarea>
+      <op-button id="submitButton">Mail Senden</op-button>
+      <op-headline level="2 ">Zu hören auf:</op-headline>
+      <div class="listen-on ">
+        <op-link href="https://open.spotify.com/show/3qmlDizuA6y5dK4Dl4LsJs ">Spotify</op-link>
+        <op-link href="https://itunes.apple.com/de/podcast/next-doing-done/id1354436703?l=en&mt=2 ">Apple Podcasts</op-link>
+        <op-link href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yYWI3ZmM4L3BvZGNhc3QvcnNz ">Google
+          Podcasts
+        </op-link>
+        <op-link href="https://castbox.fm/channel/id1190968 ">Castbox</op-link>
+        <op-link href="https://www.podbean.com/podcast-detail/ak883-6783a/Next-Doing-Done-Podcast ">Podbean</op-link>
+        <op-link href="https://www.breaker.audio/next-doing-done ">Breaker</op-link>
+        <op-link href="https://overcast.fm/itunes1354436703/next-doing-done ">Overcast</op-link>
+        <op-link href="https://play.radiopublic.com/next-doing-done-GE2xqP ">Radio Public</op-link>
+        <op-link href="https://www.youtube.com/channel/UC2Imhkol-GXbPT7I-0TDdlQ?view_as=subscriber ">Youtube</op-link>
       </div>
       <br>
-      <op-headline level="2">Über uns</op-headline>
-      <op-paragraph>Der Podcast rund ums smarte arbeiten, persönliche Herausforderungen und Spaß am Leben. Wir erklären dir, wie du dich,
-        sowohl privat als auch beruflich, durch iteratives Vorgehen stetig verbessern kannst. Zwischendurch erzählen wir
-        dir von unseren Erfahrungen und was wir daraus gelernt haben. Manchmal spinnen wir auch einfach nur rum.
+      <op-headline level="2 ">Über uns</op-headline>
+      <op-paragraph>Der Podcast rund ums smarte arbeiten, persönliche Herausforderungen und Spaß am Leben. Wir erklären dir,
+        wie du dich, sowohl privat als auch beruflich, durch iteratives Vorgehen stetig verbessern kannst. Zwischendurch
+        erzählen wir dir von unseren Erfahrungen und was wir daraus gelernt haben. Manchmal spinnen wir auch einfach nur
+        rum.
         <br>
         <br>Deine Fragen und Anregungen kannst du uns gerne an
         <op-link href=" mailto:feedback@nextdoingdone.de ">feedback@nextdoingdone.de</op-link> schicken ❤️
@@ -87,13 +95,15 @@
       <op-link href="https://anchor.fm/s/2ab7fc8/podcast/rss ">Oder zum RSS-Feed</op-link>
       <br>
       <br>
-      <op-headline level="2">Impressum</op-headline>
+      <op-headline level="2 ">Impressum</op-headline>
       <br>
       <op-paragraph>
         Verantwortlich für den Quatsch sind Lasse Diercks &amp; Tarek Garir aus Hamburg.
       </op-paragraph>
     </op-content>
   </op-frame>
+
+  <script src="main.js"></script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115014635-1 "></script>
   <script>

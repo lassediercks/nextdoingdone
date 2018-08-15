@@ -50,3 +50,14 @@ op-frame {
   text-decoration: none;
   padding: 0.3em 0;
 }
+
+.problem-text {
+  width: 100%;
+  resize: none;
+  height: 120px;
+  border-radius: var(--border-radius);
+  border-color: var(--dark);
+  margin-bottom: var(--outer-y);
+  font-size: var(--font-size);
+  padding: var(--inner);
+}
